@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header {
+    background-color: #F5F5F5;
+}
+
+.hero {
+    background-color: #F5F5F5;
+}
+
+.sobre_mi {
+    background-color: #EAF2FD;
+
+}
+
+footer {
+    background-color: #FFFFFF;
+}
+
+
