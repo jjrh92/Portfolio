@@ -15,7 +15,10 @@ header {
 
 .sobre_mi {
     background-color: #EAF2FD;
+}
 
+.academica {
+    background-color: #EAF2FD;
 }
 
 .skills {
@@ -24,8 +27,17 @@ header {
 }
 
 .cuadroBlanco {
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;
+    height: 10.875rem;
+    width: 11rem;
+    padding-bottom: 1rem;
+}
 
+.cuadroBlanco2 {
+    background-color: #F5F5F5;
+    height: 17.875rem;
+    width: 23rem;
+    padding-bottom: 1rem;
 }
 
 footer {
