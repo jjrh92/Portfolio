@@ -11,25 +11,27 @@
 
 </head>
 <body>
-    <header>
-        <nav class="d-flex flex-row py-4 justify-content-between px-5 ms-5 me-5">
-            <div class="d-flex">
-                <a class="fw-bolder text-decoration-none text-black" href="index.html">jjrh92.dev</a>
-            </div>
-            <div class="d-flex gap-5">
-                <a class="text-decoration-none text-black" href="#">Sobre mi</a>
-                <a class="text-decoration-none text-black" href="#">Skills</a>
-                <a class="text-decoration-none text-black" href="#">Hobbies</a>
-                <a class="text-decoration-none text-black" href="#">Formación</a>
-                <a class="text-decoration-none text-black" href="#">Proyectos</a>
-                <a class="fw-bolder text-decoration-none text-black" href="mailto:contacto@jjrh92.dev">contacto@jjrh92.dev</a>
-            </div>
-        </nav>
+
+    <header class="d-flex flex-wrap justify-content-center px-5 navbar fixed-top">
+
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none navbar-brand">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            <span class="fs-4 text-black fw-bolder">jjrh92</span>
+        </a>
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link text-black fw-bold" aria-current="page">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-black fw-bold">Sobre mi</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-black fw-bold">Skills</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-black fw-bold">Hobbies</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-black fw-bold">Formación</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-black fw-bold">Proyectos</a></li>
+            <li class="nav-item"><a href="mailto:contacto@jjrh92.dev" class="nav-link text-black fw-bolder">contacto@jjrh92.dev</a></li>
+        </ul>
     </header>
 
-    <main>
 
-        <section class="d-flex flex-column hero">
+    <main>
+        <section class="d-flex flex-column hero pt-5">
             <div class="d-flex flex-row py-3 justify-content-between px-5 ms-5 me-5">
                 <div>
                     <h1 class="fw-bold">Hola, mi nombre es Julio Reyes y construyo paginas web.</h1>
@@ -213,13 +215,29 @@
     </main>
 
 
-    <footer>
-        <div class="d-flex flex-column align-items-center pb-3 pt-3">
-            <span class="lh-3">Desarrollado por Julio Reyes</span>
-            <span class="lh-3">2022.</span>
-        </div>
-    </footer>
+    <footer class="py-1 my-1">
+        <ul class="nav justify-content-center mb-2">
 
+            <div class="d-flex flex-row justify-content-start align-content-center gap-3 pt-3">
+
+                <li><a title="Repositorio en Github" class="text-decoration-none text-black fw-semibold" href="https://github.com/jjrh92/" target="_blank"><img src="https://img.icons8.com/glyph-neue/64/null/github.png" class="iconos_footer hvr-pulse-grow"  height="25px" width="25px"></a></li>
+
+
+
+                <li><a title="Conectemos en LinkedIn" class="text-decoration-none text-black fw-semibold" href="https://www.linkedin.com/in/jjrh92/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/linkedin.png" class="iconos_footer hvr-pulse-grow" height="25px" width="25px"></a></li>
+
+
+                <li><a title="Conectemos en Telegram" class="text-decoration-none text-black fw-semibold" href="https://t.me/jjrh92" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/telegram.png"  class="iconos_footer hvr-pulse-grow" height="25px" width="25px"></a></li>
+
+
+                <li><a title="Conectemos en Discord" class="text-decoration-none text-black fw-semibold" href="https://discordapp.com/users/125683846506086400" target="_blank"><img src="https://img.icons8.com/ios-filled/50/null/discord-logo.png"  class="iconos_footer hvr-pulse-grow" height="25px" width="25px"></a></li>
+
+            </div>
+        </ul>
+        <p class="text-center text-black fw-bolder fs-5">&copy; 2023 Julio Reyes</p>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 </html>
