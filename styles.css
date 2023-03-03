@@ -5,60 +5,8 @@
 
 }
 
-header {
-    background-color: #F5F5F5;
-}
-
-.hero {
-    background-color: #F5F5F5;
-}
-
-.sobre_mi {
-    background-color: #EAF2FD;
-}
-
-.academica {
-    background-color: #EAF2FD;
-}
-
-.skills {
-    background-color: #F5F5F5;
-
-}
-
-.experiencia {
-    background-color: #EAF2FD;
-}
-
-.cuadroBlanco {
-    background-color: #F5F5F5;
-    height: 10.875rem;
-    width: 11rem;
-    padding-bottom: 1rem;
-}
-
-.cuadroBlanco2 {
-    background-color: #F5F5F5;
-    height: 17.875rem;
-    width: 23rem;
-    padding-bottom: 1rem;
-}
-
-.cuadroExperiencia {
-    background-color: #EAF2FD;
-    height: 17.875rem;
-    width: 23rem;
-    padding-bottom: 1rem;
-}
-
 textarea {
     resize: none;
     
 }
-
-
-footer {
-    background-color: #FFFFFF;
-}
-
 
