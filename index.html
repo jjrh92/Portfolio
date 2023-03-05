@@ -39,12 +39,10 @@
                         <li class="nav-item">
                             <a class="nav-link fw-semibold fs-5 text-black" href="#proyectos">Proyectos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-semibold fs-5 text-black" href="#contacto">Contacto</a>
-                        </li>
+
                     </ul>
                     <span class="navbar-text">
-                        <a title="Enviame un mail siguiendo este enlace o ve directamente al formulario de contacto abajo." class="text-decoration-none fw-bolder fs-3 hvr-pulse-grow" href="mailto:contacto@jjrh92.dev">contacto@jjrh92.dev</a>
+                        <a title="Enviame un mail ." class="text-decoration-none fw-bolder fs-3 hvr-pulse-grow" href="#contacto">Contactame</a>
                       </span>
                 </div>
             </div>
@@ -204,17 +202,24 @@
                 <div class="container-fluid">
                     <div class="d-flex flex-column align-items-center justify-content-center">
                         <h3 class="fw-semibold">¿Quieres contactarme?</h3>
-                    <div class="d-flex flex-column align-content-center justify-content-center mb-3 gap-2 pt-2">
-                        <input type="text" class="form-control-lg fs-1 fw-light text-center" placeholder="Nombre y Apellido" id="nombreYApellido" required>
-                        <input type="email" class="form-control-lg fs-1 fw-light text-center" placeholder="E-mail" id="email" required>
-                        <input type="text" class="form-control-lg fs-1 fw-light text-center" placeholder="Asunto" id="asunto" required>
-                        <textarea style="resize: none;" class="form-control-lg fs-1 fw-light text-center" placeholder="Escribe tu mensaje." id="mensaje"></textarea>
-                        <button class="btn btn-dark fs-1 fw-light" id="enviarFormulario" type="submit" value="submit">Enviar</button>
+
+                        <form action="https://formsubmit.co/contacto@jjrh92.dev" method="post">
+
+                            <div class="d-flex flex-column align-content-center justify-content-center mb-3 gap-2 pt-2">
+
+                            <input type="text" class="form-control-lg fs-1 fw-light text-center" placeholder="Nombre y Apellido" id="nombreYApellido" required>
+                            <input type="email" class="form-control-lg fs-1 fw-light text-center" placeholder="E-mail" id="email" required>
+                            <input type="text" class="form-control-lg fs-1 fw-light text-center" placeholder="Asunto" id="asunto" required>
+                            <textarea style="resize: none;" rows="4" class="form-control-lg fs-1 fw-light text-center" placeholder="Escribe tu mensaje." id="mensaje"></textarea>
+                            <button class="btn btn-dark fs-1 fw-light" id="enviarFormulario" type="submit" value="submit" >Enviar</button>
+
+                        </form>
                     </div>
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer class="footer pt-5">
