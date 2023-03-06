@@ -1,51 +1,54 @@
 // Inicio
 
-const nombreyApellido = document.getElementById ("nombreyApellido");
-const email = document.getElementById ("email");
+// Comenzamos declarando variables del DOM. Especificamente elementos del formulario.
+
+const nombreYApellido = document.getElementById ("nombreYApellido");
+const correoElectronico = document.getElementById ("correoElectronico");
 const asunto = document.getElementById ("asunto");
-const mensaje = document.getElementById("mensaje");
+const mensaje = document.getElementById ("mensaje");
+
 const botonEnviarFormulario = document.getElementById ("botonEnviarFormulario");
 
-function revisarDatos () {
+// Usaremos la siguiente función para validar ciertos requisitos para los diferentes inputs y el textarea. 
 
-    // Con esta Primera validacion evitamos que la pagina se actualice al enviar el formulario.
-    window.event.preventDefault()
+function revisarFormulario () {
 
-    // Validaciones de Nombre y Apellido 
+    window.event.preventDefault (); // Con esta linea prevenimos que el navegador se actualice.
 
-    if (nombreyApellido == "" || nombreyApellido.value.length > 50) {
+    if (nombreYApellido.value == "" || nombreYApellido.value.lenght > 50) {
 
-        alert ("Debe ingresar nombre y apellido valido");
-
-    }
-
-    // Validaciones de Correo Electronico 
-
-    else if (email == "") {
-
-        alert ("Debe ingresar correo electronico valido");
+        alert ("Por favor ingrese un nombre y apellido validos.");
 
     }
 
-    else if (email.indexOf ("@") == -1 || email.indexOf (".") == -1 ) {
+    else if (correoElectronico.value == "" || correoElectronico.value.indexOf ("@") == -1 || correoElectronico.value.indexOf (".") == -1) {
 
-        alert ("Debe ingresar correo electronico valido");
+        alert ("Por favor ingrese un correo electronico valido.");
 
     }
 
-    // Validaciones de Asunto
+    else if (asunto.value == "" || asunto.value.lenght < 50) {
 
-    else if (asunto == "" || asunto.length < 50) {
+        alert ("Por favor ingrese un asunto valido.");
 
-        alert ("Debe ingresar un mensaje valido");
-    
     }
 
+    else if (mensaje.value == "" || mensaje.value.lenght > 300) {
 
+        alert ("El mensaje no puede estar vacio ni sus caracteres superar los 300, por favor ingrese un mensaje valido.");
 
+    }
+
+    else {
+
+        alert ("Gracias por enviarnos tu mensaje! Recibiras respuesta pronto.");
+        window.location.reload ();
+
+    }
 }
 
-botonEnviarFormulario.addEventListener ("click", revisarDatos);
+botonEnviarFormulario.addEventListener ("click", revisarFormulario);
 
-// V-1.0.0
-// Fin
+// V-1.0.0 - Julio Reyes - 06MAR2023.
+
+// Fin 
