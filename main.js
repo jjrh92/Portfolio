@@ -49,6 +49,6 @@ function revisarFormulario () {
 
 botonEnviarFormulario.addEventListener ("click", revisarFormulario);
 
-// V-1.0.0 - Julio Reyes - 06MAR2023.
+// V-1.0.0 - Julio Reyes - 06MAR2023. 
 
 // Fin 
