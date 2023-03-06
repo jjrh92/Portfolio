@@ -203,15 +203,15 @@
                     <div class="d-flex flex-column align-items-center justify-content-center">
                         <h3 class="fw-semibold">¿Quieres contactarme?</h3>
 
-                        <form class="d-flex flex-column align-content-center justify-content-center mb-3 gap-2 pt-2">
+                        <form class="d-flex flex-column align-content-center justify-content-center mb-3 gap-2 pt-2" method="post" name="contact" action="enviado.html" data-netlify="true">
 
-                            <input type="text" class="form-control-lg fs-1 fw-light text-center" placeholder="Nombre y Apellido" id="nombreYApellido">
+                            <input name="name" type="text" class="form-control-lg fs-1 fw-light text-center" placeholder="Nombre y Apellido" id="nombreYApellido">
 
-                            <input type="email" class="form-control-lg fs-1 fw-light text-center" placeholder="E-mail" id="correoElectronico">
+                            <input name="email" type="email" class="form-control-lg fs-1 fw-light text-center" placeholder="E-mail" id="correoElectronico">
 
-                            <input type="text" class="form-control-lg fs-1 fw-light text-center" placeholder="Asunto" id="asunto">
+                            <input name="subject" type="text" class="form-control-lg fs-1 fw-light text-center" placeholder="Asunto" id="asunto">
 
-                            <textarea style="resize: none;" rows="4" class="form-control-lg fs-1 fw-light text-center" placeholder="Escribe tu mensaje." id="mensaje"></textarea>
+                            <textarea name="message" style="resize: none;" rows="4" class="form-control-lg fs-1 fw-light text-center" placeholder="Escribe tu mensaje." id="mensaje"></textarea>
 
                             <button class="btn btn-dark fs-1 fw-light" id="botonEnviarFormulario">Enviar</button>
 
