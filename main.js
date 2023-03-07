@@ -2,12 +2,11 @@
 
 // Comenzamos declarando variables del DOM. Especificamente elementos del formulario.
 
+const formulario_contacto = document.getElementById ("formulario_contacto");
 const nombreYApellido = document.getElementById ("nombreYApellido");
 const correoElectronico = document.getElementById ("correoElectronico");
 const asunto = document.getElementById ("asunto");
 const mensaje = document.getElementById ("mensaje");
-
-const botonEnviarFormulario = document.getElementById ("botonEnviarFormulario");
 
 // Usaremos la siguiente función para validar ciertos requisitos para los diferentes inputs y el textarea. 
 
@@ -39,16 +38,11 @@ function revisarFormulario () {
 
     }
 
-    else {
-
-        alert ("Gracias por enviarnos tu mensaje! Recibiras respuesta pronto.");
-        window.location.reload ();
-
-    }
 }
 
-botonEnviarFormulario.addEventListener ("click", revisarFormulario);
+formulario_contacto.addEventListener ("submit", revisarFormulario);
 
-// V-1.0.0 - Julio Reyes - 06MAR2023. 
+// V-1.0.0 - Julio Reyes - 06MAR2023.
+// V-1.1.0 - Julio Reyes - 07MAR2023. 
 
 // Fin 
