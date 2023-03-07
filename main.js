@@ -8,8 +8,6 @@ function limpiarFormulario () {
 
 }
 
-window.onload = limpiarFormulario;
-
 // Comenzamos declarando variables del DOM. Especificamente elementos del formulario.
 
 const formulario_contacto = document.getElementById ("formulario_contacto");
@@ -49,13 +47,14 @@ function revisarFormulario () {
 
     else {
 
-        alert ("Formulario Enviado Correctamente")
+        alert ("Formulario Enviado Correctamente");
 
     }
 
 }
 
 botonEnviarFormulario.addEventListener ("click", revisarFormulario);
+window.onload = limpiarFormulario;
 
 // V-1.0.0 - Julio Reyes - 06MAR2023.
 // V-1.1.0 - Julio Reyes - 07MAR2023. 
