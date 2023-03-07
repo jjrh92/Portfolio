@@ -1,5 +1,15 @@
 // Inicio
 
+// Pre-Validación para limpiar el formulario (Esto aplica cuando el usuario ya ha enviado el formulario y evitamos que los datos ingresados vuelvan a aparecer.)
+
+function limpiarFormulario () {
+
+    formulario_contacto.reset ();
+
+}
+
+window.onload = limpiarFormulario;
+
 // Comenzamos declarando variables del DOM. Especificamente elementos del formulario.
 
 const formulario_contacto = document.getElementById ("formulario_contacto");
@@ -7,12 +17,11 @@ const nombreYApellido = document.getElementById ("nombreYApellido");
 const correoElectronico = document.getElementById ("correoElectronico");
 const asunto = document.getElementById ("asunto");
 const mensaje = document.getElementById ("mensaje");
+const botonEnviarFormulario = document.getElementById ("botonEnviarFormulario");
 
 // Usaremos la siguiente función para validar ciertos requisitos para los diferentes inputs y el textarea. 
 
 function revisarFormulario () {
-
-    window.event.preventDefault (); // Con esta linea prevenimos que el navegador se actualice.
 
     if (nombreYApellido.value == "" || nombreYApellido.value.lenght > 50) {
 
@@ -38,9 +47,15 @@ function revisarFormulario () {
 
     }
 
+    else {
+
+        alert ("Formulario Enviado Correctamente")
+
+    }
+
 }
 
-formulario_contacto.addEventListener ("submit", revisarFormulario);
+botonEnviarFormulario.addEventListener ("click", revisarFormulario);
 
 // V-1.0.0 - Julio Reyes - 06MAR2023.
 // V-1.1.0 - Julio Reyes - 07MAR2023. 

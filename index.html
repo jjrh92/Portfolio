@@ -42,7 +42,7 @@
 
                     </ul>
                     <span class="navbar-text">
-                        <a title="Enviame un mail ." class="text-decoration-none fw-bolder fs-3 hvr-pulse-grow" href="mailto:contacto@jjrh92.dev">Contactame</a>
+                        <a title="Enviame un mail haciendo click aca ó ve al formulario de contacto abajo." class="text-decoration-none fw-bolder fs-3 hvr-pulse-grow" href="mailto:contacto@jjrh92.dev">Contactame</a>
                       </span>
                 </div>
             </div>
@@ -202,32 +202,15 @@
                 <div class="container-fluid">
                     <div class="d-flex flex-column align-items-center justify-content-center">
                         <h3 class="fw-semibold">¿Quieres contactarme?</h3>
-
                         <form id="formulario_contacto" class="d-flex" name="formulario_contacto" accept-charset="utf-8" action="https://formspree.io/f/xbjeyeoq" method="post">
-
                             <fieldset class="d-flex flex-column align-content-center justify-content-center mb-3 gap-2 pt-2">
-                    
-                                <label for="nombreYApellido">
-                                    <input type="text" name="name" id="nombreYApellido" placeholder="Nombre y Apellido" class="form-control-lg fs-1 fw-light text-center">
-                                </label>
-                    
-                                <label for="correoElectronico">
-                                    <input type="email" name="email" id="correoElectronico" placeholder="Correo Electronico" class="form-control-lg fs-1 fw-light text-center">
-                                </label>
-                    
-                                <label for="asunto">
-                                    <input type="text" name="name" id="asunto" placeholder="Asunto" class="form-control-lg fs-1 fw-light text-center">
-                                </label>
-                    
+                                <input type="text" name="name" id="nombreYApellido" placeholder="Nombre y Apellido" class="form-control-lg fs-1 fw-light text-center">
+                                <input type="email" name="email" id="correoElectronico" placeholder="Correo Electronico" class="form-control-lg fs-1 fw-light text-center">
+                                <input type="text" name="name" id="asunto" placeholder="Asunto" class="form-control-lg fs-1 fw-light text-center">
                                 <textarea name="message" style="resize: none;" rows="4" class="form-control-lg fs-1 fw-light text-center" placeholder="Ingrese su mensaje." id="mensaje"></textarea>
-
-                    
-                                <input type="submit" class="btn btn-dark fs-1 fw-light" value="Enviar">
-                    
+                                <input type="submit" class="btn btn-dark fs-1 fw-light" id="botonEnviarFormulario" value="Enviar">
                             </fieldset>
-    
                         </form>
-
                     </div>
                 </div>
             </div>
@@ -261,7 +244,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="main.js"></script> -->
+    <script src="main.js"></script>
 
 </body>
 </html>
