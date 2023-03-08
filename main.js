@@ -45,9 +45,6 @@ function revisarFormulario () {
 
 }
 
-botonEnviarFormulario.addEventListener ("click", revisarFormulario);
-window.onload = limpiarFormulario;
-
 // V-1.0.0 - Julio Reyes - 06MAR2023.
 // V-1.1.0 - Julio Reyes - 07MAR2023. 
 
