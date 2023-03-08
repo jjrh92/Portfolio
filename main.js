@@ -1,13 +1,5 @@
 // Inicio
 
-// Pre-Validación para limpiar el formulario (Esto aplica cuando el usuario ya ha enviado el formulario y evitamos que los datos ingresados vuelvan a aparecer.)
-
-function limpiarFormulario () {
-
-    formulario_contacto.reset ();
-
-}
-
 // Comenzamos declarando variables del DOM. Especificamente elementos del formulario.
 
 const formulario_contacto = document.getElementById ("formulario_contacto");
