@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![https://github.com/jjrh92/Portfolio/graphs/contributors](https://img.shields.io/github/contributors/jjrh92/Portfolio)
-![GitHub Repo stars](https://img.shields.io/github/stars/jjrh92/Portfolio)
-![GitHub issues](https://img.shields.io/github/issues-raw/jjrh92/Portfolio)
+![Github Contributors](https://img.shields.io/github/contributors/jjrh92/Portfolio)
+![Github Stars](https://img.shields.io/github/stars/jjrh92/Portfolio)
+![Github Issues](https://img.shields.io/github/issues-raw/jjrh92/Portfolio)
 
 <!-- PROJECT LOGO -->
 <br />
