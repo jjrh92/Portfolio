@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![GitHub contributors](https://img.shields.io/github/contributors/jjrh92/Portfolio)
+![https://github.com/jjrh92/Portfolio/graphs/contributors](https://img.shields.io/github/contributors/jjrh92/Portfolio)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jjrh92/Portfolio)
 ![GitHub issues](https://img.shields.io/github/issues-raw/jjrh92/Portfolio)
 
