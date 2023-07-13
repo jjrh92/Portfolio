@@ -1,69 +1,94 @@
-# Bienvenidos a mi proyecto!
+<br />
 
-Hola! Mi nombre es **Julio**. Este repositorio trata de un **portafolio de proyectos** a continuación podrá conocer sus funcionalidades y características.
+<div align="center">
 
-# Descripción
+![GitHub contributors](https://img.shields.io/github/contributors/jjrh92/Portfolio)
+![GitHub Repo stars](https://img.shields.io/github/stars/jjrh92/Portfolio)
+![GitHub issues](https://img.shields.io/github/issues-raw/jjrh92/Portfolio)
 
-En esta sprint, vamos a trabajar en la construcción de un Portafolio
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/jjrh92/Portfolio">
+    <img src="https://user-images.githubusercontent.com/48032098/223158512-7e4d5177-d731-4761-a105-b0d6193ade94.png" alt="Logo" width="200" height="200">
+  </a>
 
-## Requisitos
+<h3 align="center">Welcome - Bienvenid@</h3>
 
-- Debe tener un menú de navegación.
-- Debe tener una imagen que se utilizará como banner. 
-- Debe contener una sección sobre mí.
-- Debe tener una foto de perfil.
-- Debe incluir enlaces a sus redes sociales.
-- Debe tener sus datos personales:
-    1) Nombre
-    2) Edad
-    3) Nacionalidad
-    4) Biografía
+  <p align="center">
+    Portfolio - Portafolio
+    <br />
+    <br />
+    <a href="https://jjrh92.dev">View Demo - Ver Demo</a>
+    ·
+    <a href="https://github.com/jjrh92/Portfolio/issues">Report Bug - Reportar Bug</a>
+    ·
+    <a href="https://github.com/jjrh92/Portfolio/issues">Request Feature - Pedir Feature</a>
+  </p>
+</div>
 
-- Debe tener una sección de Hobbies y Soft SkillsPor ejemplo:Pasatiempos: actividades que disfruta hacer.Habilidades blandas: comunicación, liderazgo, empatía …
+<!-- ABOUT THE PROJECT -->
 
-- Debe tener una sección de formación y cursos.Aquí puedes poner las formaciones y cursos que has realizado, aunque no esté en el área de programación.
+<h1 align="center"> 
+About The Project <img src="https://media2.giphy.com/media/4ZrRpqbSaWoyZYRoCd/giphy.gif" width="30px"> Acerca del Proyecto
+</h1>
 
-- Debe tener experiencia en la sección de programación.Aquí puedes poner los proyectos que ya has realizado anteriormente, como por ejemplo: los proyectos del retador principiante en programación.
+Portfolio to showcase my projects - Portafolio para mostrar mis proyectos.
 
-- Debe tener un formulario de contacto con los siguientes campos
 
-- Correo electrónico
+<h1 align="center"> 
+Built With <img src="https://media0.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif" width="30px"> Hecho Con
+</h1>
 
-- Nombre
+Bootstrap, Vanilla JS.
 
-- Asunto
+<!-- GETTING STARTED -->
+<h1 align="center"> 
+Getting Started <img src="https://media1.giphy.com/media/QvpqIQAAl66EfoTJj8/giphy.gif" width="30px"> Comenzando
+</h1>
 
-- Mensaje
+Install the project locally - Instalar el proyecto localmente. 
 
-- Debe tener un Pie de página con la información de la persona que desarrolló el portafolio.
+Clone the repo
+   ```sh
+   git clone https://github.com/jjrh92/Portfolio.git
+   ```
 
-- Es de extrema importancia que el portafolio sea responsivo, lo que quiere decir que debe adaptarse a los diferentes tamaños de pantallas, pudiendo ser desktop, tablet o celular.
+<!-- USAGE EXAMPLES -->
+<h1 align="center"> 
+Usage <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2lvcWx2Ynpia3BjYnk3Yzlvdmw1cnBjdHI3cm5uY3QzenM1enNibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/igPDtkfSJZMFwE0LP8/giphy.gif" width="30px"> Uso
+</h1>
 
-## Extras
+Get to know more about me by visiting my portfolio. - Visitando mi portafolio podras conocerme mejor.
 
-- La página debe contener un botón que le permita ver, en una nueva pestaña, una versión PDF de su currículum.
 
-### ✔️  Validación del formulario de contacto - Campo Nombre, Campo Asunto
+<!-- CONTRIBUTING -->
+<h1 align="center"> 
+Contributing <img src="https://media4.giphy.com/media/rkzUVAQe0zC52ActrJ/giphy.gif" width="30px"> Contribuir
+</h1>
 
-Ahora que tenemos nuestro portafolio estilizado vamos a validar las entradas en el formulario para tener una sesión de contacto funcional. Empecemos por la entrada "Nombre":
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. - Las contribuciones son lo que hace la comunidad open source increible para aprender, inspirar, y crear, todas las contribuciones *son bienvenidas*. 
 
-- Campo Nombre no debe estar en blanco o vacío.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". - Si tienes una sugerencia para mejorar este proyecto, por favor forkea el repositorio y haz una pull request. Puedes tambien abrir un issue con el tag "mejora".
 
-- Debe contener máximo 50 caracteres.
+Don't forget to give the project a star! Thanks again! - No olvides darle una estrella al proyecto! Gracias de nuevo!
 
-- Mostrar mensaje de error específico cuando alguna de estas condiciones no sea cumplida
+<!-- CONTACT -->
+<h1 align="center"> 
+Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" width="30px"> Contacto
+</h1>
 
-🏆 Badge Attained
+[Via LinkedIn](https://linkedin.com/jjrh92)
 
-![image](https://user-images.githubusercontent.com/48032098/223158512-7e4d5177-d731-4761-a105-b0d6193ade94.png)
+[Via Github](https://github.com/jjrh92)
 
-### ✔️  Changelog
+[Via E-Mail](mailto:admin@jjrh92.dev)
 
--   1.1.0 Se ha actualizado/mejorado el formulario de contacto y mediaqueries del header.
+[Via Telegram](https://t.me/jjrh92)
 
-### ✔️  Screenshots
+<!-- ACKNOWLEDGMENTS -->
+<h1 align="center"> 
+Acknowledgments <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXliemQ4NzVmdXRxc3FyM3RjN2F2NzQ5MmRwZnJxa2VrZDBncjhtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sa5tk2gi3G1MSmy1vY/giphy.gif" width="30px"> Agradecimientos
+</h1>
 
-![mobile](https://user-images.githubusercontent.com/48032098/223552507-3a013d31-e771-4097-a6c1-93477e12e595.png)
-![mobile (3)](https://user-images.githubusercontent.com/48032098/223552523-042ca942-d120-4830-98e3-c25c831582b1.png)
-![mobile (1)](https://user-images.githubusercontent.com/48032098/223552526-40d8fefd-287f-4d17-a004-503df6b88d39.png)
-![mobile (2)](https://user-images.githubusercontent.com/48032098/223552533-094a8633-f716-47ff-a97f-0c07027be5d1.png)
+[TheOdinProject](https://www.theodinproject.com/)
