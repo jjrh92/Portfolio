@@ -15,7 +15,8 @@ const LinksWrapper = styled ("div") ({
 });
 
 
-export function NavLinks(props) {
+export function NavLinks (props) {
+
   return (
 
     <LinksWrapper>

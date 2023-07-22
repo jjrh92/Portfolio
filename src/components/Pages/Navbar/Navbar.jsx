@@ -7,6 +7,7 @@ import { NavLinks } from "./navLinks";
 import { DeviceSize } from "./responsive";
 import { MobileNavLinks } from "./mobileNavLinks";
 import { ColorsPortfolio } from "../../../colors";
+import "./Navbar.css"
 
 const NavbarContainer = styled ("header") ({
 
@@ -15,10 +16,10 @@ const NavbarContainer = styled ("header") ({
     alignItems: "center",
     padding: "1rem 3rem",
     backgroundColor: ColorsPortfolio.background1,
-    borderBottom: "1px solid",
-    borderColor: ColorsPortfolio.text2,
     userSelect: "none",
     position: "sticky",
+    borderBottom: "1.4px solid",
+    borderColor: ColorsPortfolio.hover,
 
 });
 
@@ -43,14 +44,14 @@ export function Navbar (props) {
 
     return (
 
-        <NavbarContainer>
+        <NavbarContainer id="NavbarContainer">
             <LeftandRightSections>
                 <Link draggable="false" style={{fontSize: "3rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/">JR</Link>
             </LeftandRightSections>
             <MiddleSection>{!isMobile && <NavLinks/>}</MiddleSection>
             <LeftandRightSections>
-                {!isMobile && <Accessibility />}
-                {isMobile && <MobileNavLinks />}
+                {!isMobile && <Accessibility/>}
+                {isMobile && <MobileNavLinks/>}
             </LeftandRightSections>
         </NavbarContainer>
 

@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { Accessibility } from "./accessibility";
 import { MenuToggle } from "./menuToggle";
 import { ColorsPortfolio } from "../../../colors";
+import Footer from "../Footer/Footer";
 
 const NavLinksContainer = styled ("div") ({
 
@@ -14,7 +15,7 @@ const NavLinksContainer = styled ("div") ({
 });
 
 const LinksWrapper = styled ("div") ({
-
+  paddingTop: "120px",
   paddingLeft: "25px",
   display: "flex",
   height: "100%",
@@ -42,7 +43,7 @@ export function MobileNavLinks (props) {
   return (
 
     <NavLinksContainer>
-    <MenuToggle isOpen={isOpen} toggle={() => setOpen (!isOpen)} />
+    <MenuToggle isOpen={isOpen} toggle={() => setOpen (!isOpen)}  />
 
       {isOpen && (
 
@@ -52,7 +53,7 @@ export function MobileNavLinks (props) {
           <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/about">About</NavLink>
           <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/projects">Projects</NavLink>
           <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/Contact">Contact</NavLink>
-          
+
           <Marginer />
           <Accessibility />
         </LinksWrapper>

@@ -5,6 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import { ColorsPortfolio } from "../../../colors";
+import "./Footer.css"
 
 const FooterContainer = styled ("footer") ({
 
@@ -14,10 +15,11 @@ const FooterContainer = styled ("footer") ({
   justifyContent: "center",
   padding: "1rem 3rem",
   backgroundColor: ColorsPortfolio.background1,
-  borderTop: "1px solid",
-  borderColor: ColorsPortfolio.text2,
+  borderTop: "1.4px solid",
+  borderColor: ColorsPortfolio.hover,
   userSelect: "none",
-  gap: "200px",
+  gap: "80px",
+  
 
 });
 
@@ -25,7 +27,7 @@ const Footer = () => {
 
   return (
 
-    <FooterContainer>
+    <FooterContainer id='FooterContainer'>
 
         <Button draggable="false" className="boton" variant="text" title="LinkedIn" href="https://www.linkedin.com/in/jjrh92/" target="_blank" rel="noopener noreferrer">
           <LinkedInIcon className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }}/>

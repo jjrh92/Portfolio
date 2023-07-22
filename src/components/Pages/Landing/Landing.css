@@ -1,0 +1,18 @@
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+
+    #Container {
+
+        height: 100%;
+
+    }
+	
+    #Image {
+
+        height: 400px;
+        width: 400px;;
+
+    }
+
+    
+
+}
