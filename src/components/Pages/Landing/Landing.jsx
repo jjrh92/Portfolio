@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { ColorsPortfolio } from "../../../colors";
+import Avatar from "../../../assets/images/avatar.png"
 import "./Landing.css"
 
 const Container = styled ("section") ({
@@ -10,7 +11,6 @@ const Container = styled ("section") ({
   height: "100vh",
   backgroundColor: ColorsPortfolio.background2,
   userSelect: "none",
-  display: "flex",
   justifyContent: "center",
   alignItems: "center",
   paddingLeft: "3rem",
@@ -69,7 +69,7 @@ const Landing = () => {
     <Container id='Container'>
 
         <Title>My name is Julio!</Title>
-        <Image id='Image' className='Image' src="../src/assets/images/avatar.png" draggable="false" alt="Avatar" />
+        <Image id='Image' className='Image' src={Avatar} draggable="false" alt="Avatar" />
         <SubTitle>Welcome to my Portfolio</SubTitle>
         <Text id='Text'>Front-End developer aiming to create compositions that are aesthetically pleasing for all audiences. You are welcome to explore and test my projects, review the code behind, and if you need help with an idea you can contact me. Have a nice day.</Text>
 
