@@ -15,9 +15,7 @@ const Container = styled ("section") ({
   alignItems: "center",
   paddingLeft: "3rem",
   paddingRight: "3rem",
-  borderLeft: "0.1px solid",
-  borderRight: "1.4px solid",
-  borderColor: ColorsPortfolio.hover,
+
 
 });
 
@@ -34,7 +32,7 @@ const Title = styled ("h1") ({
 
 const SubTitle = styled ("h1") ({
 
-    fontSize: "2rem",
+    fontSize: "1.7rem",
     fontWeight: "bold",
     color: ColorsPortfolio.text1,
     paddingTop: "1rem",
@@ -44,20 +42,19 @@ const SubTitle = styled ("h1") ({
 
 const Text = styled ("p") ({
 
-    fontSize: "1rem",
+    fontSize: "2rem",
     color: ColorsPortfolio.text1,
     textAlign: "justify",
-    paddingBottom: "1rem",
+    paddingBottom: "2rem",
 
   
 });
 
 const Image = styled ("img") ({
 
-    width: "700px",
-    height: "700px",
-    paddingBottom: "0.5rem",
-
+  width: "700px",
+  height: "700px",
+  paddingBottom: "0.5rem",
 
 });
 
