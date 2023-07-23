@@ -54,7 +54,7 @@ const CategoryContainer = styled ("div") ({
   flexDirection: "column",
   flexWrap: "wrap",
   padding: "2rem",
-  backgroundColor: ColoresJulioFood.fondo,
+
 
 });
 
