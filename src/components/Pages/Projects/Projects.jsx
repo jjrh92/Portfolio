@@ -75,11 +75,18 @@ const Projects = () => {
   return (
 
     <Container id='Container'>
+      
       <Title id='Title'>Projects</Title>
       <Text id='Text'>If you want to get in touch please go to the Contact page.</Text>
+
       <SubContainer>
-      <Text id='Text'>Feelance Projects</Text>
+        <Text id='Text'>Feelance Projects</Text>
       </SubContainer>
+
+      <SubContainer>
+        <Text id='Text'>Academic Projects</Text>
+      </SubContainer>
+
 
     </Container>
 
