@@ -27,7 +27,7 @@ export function NavLinks (props) {
 
       <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/projects">Projects</NavLink>
 
-      <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/Contact">Contact</NavLink>
+      <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/contact">Contact</NavLink>
 
     </LinksWrapper>
 

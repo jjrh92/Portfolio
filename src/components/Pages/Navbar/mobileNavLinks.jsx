@@ -52,7 +52,7 @@ export function MobileNavLinks (props) {
           <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/">Home</NavLink>
           <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/about">About</NavLink>
           <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/projects">Projects</NavLink>
-          <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/Contact">Contact</NavLink>
+          <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/contact">Contact</NavLink>
 
           <Marginer />
           <Accessibility />

@@ -47,6 +47,10 @@ const Skills = () => {
                     <IconoImagen draggable="false"src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg' className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }} />
                 </Button>
 
+                <Button variant="text" title="MaterialUI">
+                    <IconoImagen draggable="false" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg' className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }} />
+                </Button>
+
                 <Button variant="text" title="NodeJS">
                     <IconoImagen draggable="false" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg' className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }} />
                 </Button>
@@ -89,6 +93,22 @@ const Skills = () => {
 
                 <Button variant="text" title="Firebase">
                     <IconoImagen draggable="false" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg' className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }} />
+                </Button>
+
+                <Button variant="text" title="Bash">
+                    <IconoImagen draggable="false" src='https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg' className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }} />
+                </Button>
+
+                <Button variant="text" title="Linux">
+                    <IconoImagen draggable="false" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg' className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }} />
+                </Button>
+
+                <Button variant="text" title="SSH">
+                    <IconoImagen draggable="false" src='https://cdn-icons-png.flaticon.com/512/5261/5261867.png' className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }} />
+                </Button>
+                
+                <Button variant="text" title="VSCODE">
+                    <IconoImagen draggable="false" src='https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg' className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }} />
                 </Button>
 
             </IconsContainer>

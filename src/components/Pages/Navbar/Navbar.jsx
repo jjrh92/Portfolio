@@ -18,7 +18,7 @@ const NavbarContainer = styled ("header") ({
     backgroundColor: ColorsPortfolio.background1,
     userSelect: "none",
     position: "sticky",
-    borderBottom: "1.4px solid",
+    borderBottom: "2px solid",
     borderColor: ColorsPortfolio.hover,
 
 });

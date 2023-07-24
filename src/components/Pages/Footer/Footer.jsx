@@ -15,7 +15,7 @@ const FooterContainer = styled ("footer") ({
   justifyContent: "center",
   padding: "1rem 3rem",
   backgroundColor: ColorsPortfolio.background1,
-  borderTop: "1.4px solid",
+  borderTop: "2px solid",
   borderColor: ColorsPortfolio.hover,
   userSelect: "none",
   gap: "80px",
