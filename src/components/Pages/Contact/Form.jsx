@@ -22,7 +22,7 @@ const FormContainer = styled ("form") ({
 
 const Label = styled ("label") ({
 
-    fontSize: "2rem",
+    fontSize: "20px",
     color: ColorsPortfolio.text1,
     textAlign: "center",
   
@@ -34,7 +34,7 @@ const Input = styled ("input") ({
     height: "35px",
     width: "350px",
     borderRadius: "10px",
-    fontSize: "2rem",
+    fontSize: "20px",
     outline: "none",
     border: "none",
     color: ColorsPortfolio.hover,
@@ -58,7 +58,7 @@ const TextArea = styled ("textarea") ({
 
 const SendButton = styled ("button") ({
 
-    fontSize: "2rem",
+    fontSize: "20px",
     fontWeight: "bold",
     backgroundColor: ColorsPortfolio.text1,
     border: "3px solid",
@@ -85,7 +85,7 @@ function Form () {
 
       <Label htmlFor="email">Email Address</Label>
 
-      <Input autoComplete='off' required placeholder='admin@jjrh92.dev' id="email"type="email" name="email"/>
+      <Input autoComplete='off' required placeholder='your email here' id="email"type="email" name="email"/>
 
       <ValidationError prefix="Email" field="email" errors={state.errors} />
 

@@ -22,13 +22,13 @@ export function NavLinks (props) {
 
     <LinksWrapper>
 
-      <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/">Home</NavLink>
+      <NavLink draggable="false" style={{fontSize: "20px", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/">Home</NavLink>
 
-      <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/about">About</NavLink>
+      <NavLink draggable="false" style={{fontSize: "20px", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/about">About</NavLink>
 
-      <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/projects">Projects</NavLink>
+      <NavLink draggable="false" style={{fontSize: "20px", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/projects">Projects</NavLink>
 
-      <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/contact">Contact</NavLink>
+      <NavLink draggable="false" style={{fontSize: "20px", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/contact">Contact</NavLink>
 
     </LinksWrapper>
 

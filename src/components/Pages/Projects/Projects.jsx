@@ -25,7 +25,7 @@ const Container = styled ("section") ({
 
 const Title = styled ("h1") ({
 
-    fontSize: "2rem",
+    fontSize: "20px",
     fontWeight: "bold",
     color: ColorsPortfolio.text1,
     paddingTop: "5rem",
@@ -36,7 +36,7 @@ const Title = styled ("h1") ({
 
 const Text = styled ("p") ({
 
-    fontSize: "2rem",
+    fontSize: "20px",
     color: ColorsPortfolio.text1,
     textAlign: "center",
     paddingBottom: "1rem",
