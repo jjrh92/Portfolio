@@ -13,6 +13,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@fontsource-variable/chivo": "^5.0.6",
+    "@formspree/react": "^2.4.4",
     "@mui/icons-material": "^5.14.1",
     "@mui/material": "^5.14.1",
     "framer-motion": "^10.13.0",

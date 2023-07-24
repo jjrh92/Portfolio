@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "@emotion/styled";
-import TranslateRoundedIcon from '@mui/icons-material/TranslateRounded';
-import LightModeRoundedIcon from '@mui/icons-material/LightModeRounded';
 import { ColorsPortfolio } from "../../../colors";
 import { Button } from "@mui/material";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Container = styled ("div") ({
 
@@ -19,12 +19,12 @@ export function Accessibility (props) {
 
     <Container>
 
-      <Button draggable="false" className="boton" variant="text" title="Language">
-        <TranslateRoundedIcon sx={{color: ColorsPortfolio.text1, fontSize: "2rem",}} />
+      <Button draggable="false" className="boton" variant="text" title="LinkedIn" href="https://www.linkedin.com/in/jjrh92/" target="_blank" rel="noopener noreferrer">
+        <LinkedInIcon className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }}/>
       </Button>
 
-      <Button draggable="false" className="boton" variant="text" title="Light Mode">
-        <LightModeRoundedIcon sx={{color: ColorsPortfolio.text1, fontSize: "2rem",}} />
+      <Button draggable="false" className="boton" variant="text" title="Github" href="https://www.github.com/jjrh92" target="_blank" rel="noopener noreferrer">
+        <GitHubIcon className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }}/>
       </Button>
 
     </Container>
