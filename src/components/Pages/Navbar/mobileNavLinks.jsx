@@ -49,10 +49,10 @@ export function MobileNavLinks (props) {
 
         <LinksWrapper>
 
-          <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/">Home</NavLink>
-          <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/about">About</NavLink>
-          <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/projects">Projects</NavLink>
-          <NavLink draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/contact">Contact</NavLink>
+          <NavLink title="Home" draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/">Home</NavLink>
+          <NavLink title="About" draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/about">About</NavLink>
+          <NavLink title="Projects" draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/projects">Projects</NavLink>
+          <NavLink title="Contact" draggable="false" style={{fontSize: "2rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1, paddingLeft: "1.5rem"}} to="/contact">Contact</NavLink>
 
           <Marginer />
           <Accessibility />

@@ -46,7 +46,7 @@ export function Navbar (props) {
 
         <NavbarContainer id="NavbarContainer">
             <LeftandRightSections>
-                <Link draggable="false" style={{fontSize: "3rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/">JR</Link>
+                <Link title="Home" draggable="false" style={{fontSize: "3rem", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/">JR</Link>
             </LeftandRightSections>
             <MiddleSection>{!isMobile && <NavLinks/>}</MiddleSection>
             <LeftandRightSections>
