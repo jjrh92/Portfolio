@@ -79,7 +79,7 @@ const Contact = () => {
 
       <Text className='TextChange' id='Text'>Follow the links above to visit my socials, or submit the following form to send me message.</Text>
       <Form />
-      <Text id='Text'>Thank you for visiting my portfolio.</Text>
+      <Text id='Text' style={{paddingBottom: "70px"}}>Thank you for visiting my portfolio.</Text>
 
 
 
