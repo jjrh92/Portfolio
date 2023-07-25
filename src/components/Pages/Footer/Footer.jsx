@@ -27,7 +27,7 @@ const Footer = () => {
 
     <FooterContainer id='FooterContainer'>
 
-      <Button draggable="false" variant="text" title="Telegram" href="mailto:juliojesusreyes@gmail.com" target="_blank" rel="noopener noreferrer">
+      <Button draggable="false" variant="text" title="Send me an Email" href="mailto:juliojesusreyes@gmail.com" target="_blank" rel="noopener noreferrer">
         <EmailIcon className="button" sx={{ fontSize: "3rem", color: ColorsPortfolio.text1 }}/>
       </Button>
 

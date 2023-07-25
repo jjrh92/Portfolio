@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from '@emotion/styled';
 import { useForm, ValidationError } from '@formspree/react';
 import { ColorsPortfolio } from '../../../colors';
 import ReCAPTCHA from "react-google-recaptcha";
+import { Link } from 'react-router-dom';
 import "./Form.css";
 
 const FormContainer = styled ("form") ({
@@ -23,22 +24,24 @@ const FormContainer = styled ("form") ({
 
 const Label = styled ("label") ({
 
-    fontSize: "20px",
-    color: ColorsPortfolio.text1,
-    textAlign: "center",
+  fontSize: "20px",
+  color: ColorsPortfolio.text1,
+  textAlign: "center",
   
 });
 
 const Input = styled ("input") ({
 
-    backgroundColor: ColorsPortfolio.text1,
-    height: "35px",
+  backgroundColor: ColorsPortfolio.text1,
+  height: "35px",
     width: "350px",
     borderRadius: "10px",
-    fontSize: "20px",
+    fontSize: "24px",
     outline: "none",
     border: "none",
     color: ColorsPortfolio.hover,
+    fontFamily: 'Chivo Variable',
+
 
 });
 
@@ -49,29 +52,69 @@ const TextArea = styled ("textarea") ({
     height: "330px",
     width: "350px",
     borderRadius: "10px",
-    fontSize: "3rem",
+    fontSize: "24px",
     outline: "none",
     border: "none",
     color: ColorsPortfolio.hover,
     resize: "none",
+    fontFamily: 'Chivo Variable',
 
 });
 
-const SendButton = styled ("button") ({
+const SendButtonContainer = styled ("div") ({
 
-    fontSize: "30px",
-    fontWeight: "bold",
-    backgroundColor: ColorsPortfolio.text1,
-    border: "2px solid",
-    borderColor: ColorsPortfolio.hover,
-    borderRadius: "10px",
-    color: ColorsPortfolio.hover,
-    cursor: "pointer",
+  display: "flex",
+  width: "360px",
+  flexDirection: "column-reverse",
+  alignItems: "center",
+
+});
+
+const Text = styled ("p") ({
+
+  fontSize: "20px",
+  color: ColorsPortfolio.text1,
+  textAlign: "center",
+  display: "flex",
+  paddingBottom: "1rem",
   
 });
 
-function Equis () {
+const AfterClickContainer = styled ("section") ({
 
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "start",
+  alignItems: "center",
+  height: "100vh",
+  backgroundColor: ColorsPortfolio.background2,
+  userSelect: "none",
+  paddingLeft: "3rem",
+  paddingRight: "3rem",
+  paddingBottom: "2rem",
+  gap: "30px",
+
+});
+
+const IconoImagen = styled ("img") ({
+
+  width: "200px",
+  height: "200px",
+
+});
+
+
+function CallSendButton () {
+
+  const Container = document.getElementById ("SendButtonContainer");
+  const SendButton = document.createElement ("button");
+  SendButton.setAttribute ("type", "submit");
+  SendButton.setAttribute ("style", "font-family: Chivo Variable;font-size: 30px; background-color: white; border: 2px solid; border-color: #1D4ED8; border-radius: 10px; color: #1D4ED8; cursor: pointer;");
+  SendButton.textContent = "Send";
+  Container.removeChild (Captcha);
+  Container.append (SendButton);
+  const ChangeText = document.querySelector (".TextChange");
+  ChangeText.textContent = "Successfuly Sent!";
   
 }
 
@@ -81,7 +124,17 @@ function Form () {
 
   if (state.succeeded) {
 
-    return <p>I'll be in touch shortly. Best Regards, Julio.</p>;
+    return (
+
+      <AfterClickContainer>
+        <Text>Thanks for your message. I'll be in touch Shortly. Best Regards, Julio.</Text>
+          <IconoImagen draggable="false" src='https://upload.wikimedia.org/wikipedia/commons/3/3b/Eo_circle_green_checkmark.svg'/>
+
+        <Link title="Home" draggable="false" style={{fontSize: "20px", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/">Go back to the home section</Link>
+        <Link title="Refresh" draggable="false" style={{fontSize: "20px", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} onClick={location.reload}>Or refresh this page</Link>
+      </AfterClickContainer>
+
+    )
 
   }
   
@@ -91,7 +144,7 @@ function Form () {
 
       <Label htmlFor="email">Email Address</Label>
 
-      <Input autoComplete='off' required placeholder='Your email here' id="email" type="email" name="email" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "Your email here."}/>
+      <Input autoComplete='off' required placeholder='Enter your email here' id="email" type="email" name="email" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "Enter your email here."}/>
 
       <ValidationError prefix="Email" field="email" errors={state.errors} />
 
@@ -101,9 +154,10 @@ function Form () {
 
       <ValidationError prefix="Message" field="message" errors={state.errors} />
 
-
-      <ReCAPTCHA sitekey="6Lf7EVAnAAAAAAsSNxHBAVhlHNmLuAm7Z5oNLWcI" onChange={Equis} />,
-        {/* <SendButton type="submit" disabled={state.submitting}>Send</SendButton> */}
+      <SendButtonContainer id='SendButtonContainer'>
+        <ReCAPTCHA id='Captcha' sitekey="6Lf7EVAnAAAAAAsSNxHBAVhlHNmLuAm7Z5oNLWcI" onChange={CallSendButton} />,
+      </SendButtonContainer>
+      {/* <SendButton type="submit" disabled={state.submitting}>Send</SendButton> */}
       
     </FormContainer>
 

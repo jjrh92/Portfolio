@@ -76,8 +76,6 @@ const EducationContainer = styled ("div") ({
 
 });
 
-
-
 const About = () => {
 
   return (

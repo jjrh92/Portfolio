@@ -8,12 +8,6 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-function onChange(value) {
-
-  console.log("Captcha value:", value);
-
-}
-
 const Container = styled ("section") ({
 
   display: "flex",
@@ -39,7 +33,6 @@ const Title = styled ("h1") ({
   
 });
 
-
 const Text = styled ("p") ({
 
   fontSize: "20px",
@@ -59,7 +52,6 @@ const ContactContainer = styled ("div") ({
   alignItems: "center",
   paddingTop: "1rem",
   paddingBottom: "2rem",
-
 
 });
 
@@ -85,7 +77,7 @@ const Contact = () => {
         </Button>
       </ContactContainer>
 
-      <Text id='Text'>Follow the links above to visit my socials, or submit the following form to send me message.</Text>
+      <Text className='TextChange' id='Text'>Follow the links above to visit my socials, or submit the following form to send me message.</Text>
       <Form />
       <Text id='Text'>Thank you for visiting my portfolio.</Text>
 
