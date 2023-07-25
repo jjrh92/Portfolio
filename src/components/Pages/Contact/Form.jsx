@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { useForm, ValidationError } from '@formspree/react';
 import { ColorsPortfolio } from '../../../colors';
 import "./Form.css";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const FormContainer = styled ("form") ({
 
@@ -94,6 +95,8 @@ function Form () {
       <TextArea autoComplete='off' required placeholder='Enter your message here' id="message" name="message" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "Enter your message here."}/>
 
       <ValidationError prefix="Message" field="message" errors={state.errors} />
+
+      <ReCAPTCHA sitekey="6Lf7EVAnAAAAAAsSNxHBAVhlHNmLuAm7Z5oNLWcI"/>,
 
         <SendButton type="submit" disabled={state.submitting}>Send</SendButton>
       
