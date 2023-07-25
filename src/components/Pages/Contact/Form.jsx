@@ -131,7 +131,7 @@ function Form () {
           <IconoImagen draggable="false" src='https://upload.wikimedia.org/wikipedia/commons/3/3b/Eo_circle_green_checkmark.svg'/>
 
         <Link title="Home" draggable="false" style={{fontSize: "20px", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} to="/">Go back to the home section</Link>
-        <Link title="Refresh" draggable="false" style={{fontSize: "20px", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} onClick={location.reload}>Or refresh this page</Link>
+        {/* <Link title="Refresh" draggable="false" style={{fontSize: "20px", fontWeight: "bold", textDecoration: "none", color: ColorsPortfolio.text1,}} onClick={location.reload}>Or refresh this page</Link> */}
       </AfterClickContainer>
 
     )
