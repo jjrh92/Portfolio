@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from '@emotion/styled';
 import { useForm, ValidationError } from '@formspree/react';
 import { ColorsPortfolio } from '../../../colors';
-import "./Form.css";
 import ReCAPTCHA from "react-google-recaptcha";
+import "./Form.css";
 
 const FormContainer = styled ("form") ({
 
@@ -68,7 +68,12 @@ const SendButton = styled ("button") ({
     color: ColorsPortfolio.hover,
     cursor: "pointer",
   
-  });
+});
+
+function Equis () {
+
+  
+}
 
 function Form () {
 
@@ -82,7 +87,7 @@ function Form () {
   
   return (
 
-    <FormContainer onSubmit={handleSubmit}>
+    <FormContainer id='FormContainer' onSubmit={handleSubmit}>
 
       <Label htmlFor="email">Email Address</Label>
 
@@ -96,9 +101,9 @@ function Form () {
 
       <ValidationError prefix="Message" field="message" errors={state.errors} />
 
-      <ReCAPTCHA sitekey="6Lf7EVAnAAAAAAsSNxHBAVhlHNmLuAm7Z5oNLWcI"/>,
 
-        <SendButton type="submit" disabled={state.submitting}>Send</SendButton>
+      <ReCAPTCHA sitekey="6Lf7EVAnAAAAAAsSNxHBAVhlHNmLuAm7Z5oNLWcI" onChange={Equis} />,
+        {/* <SendButton type="submit" disabled={state.submitting}>Send</SendButton> */}
       
     </FormContainer>
 

@@ -84,13 +84,8 @@ const Contact = () => {
         <GitHubIcon draggable="false" className="button" sx={{ fontSize: "3rem", height: "60px", width: "60px", color: ColorsPortfolio.text1 }} />
         </Button>
       </ContactContainer>
-    
-        
-
-
 
       <Text id='Text'>Follow the links above to visit my socials, or submit the following form to send me message.</Text>
-
       <Form />
       <Text id='Text'>Thank you for visiting my portfolio.</Text>
 
