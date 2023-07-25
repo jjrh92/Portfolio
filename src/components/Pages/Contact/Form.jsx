@@ -58,10 +58,10 @@ const TextArea = styled ("textarea") ({
 
 const SendButton = styled ("button") ({
 
-    fontSize: "40px",
+    fontSize: "30px",
     fontWeight: "bold",
     backgroundColor: ColorsPortfolio.text1,
-    border: "3px solid",
+    border: "2px solid",
     borderColor: ColorsPortfolio.hover,
     borderRadius: "10px",
     color: ColorsPortfolio.hover,

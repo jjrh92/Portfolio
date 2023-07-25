@@ -14,7 +14,7 @@ const Container = styled ("section") ({
   flexDirection: "column",
   justifyContent: "start",
   alignItems: "center",
-  height: "100vh",
+  height: "100%",
   backgroundColor: ColorsPortfolio.background2,
   userSelect: "none",
   paddingLeft: "3rem",
