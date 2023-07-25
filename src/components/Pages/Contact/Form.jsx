@@ -58,7 +58,7 @@ const TextArea = styled ("textarea") ({
 
 const SendButton = styled ("button") ({
 
-    fontSize: "20px",
+    fontSize: "40px",
     fontWeight: "bold",
     backgroundColor: ColorsPortfolio.text1,
     border: "3px solid",
@@ -85,13 +85,13 @@ function Form () {
 
       <Label htmlFor="email">Email Address</Label>
 
-      <Input autoComplete='off' required placeholder='your email here' id="email"type="email" name="email"/>
+      <Input autoComplete='off' required placeholder='Your email here' id="email" type="email" name="email" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "Your email here."}/>
 
       <ValidationError prefix="Email" field="email" errors={state.errors} />
 
       <Label htmlFor="message">Message:</Label>
 
-      <TextArea autoComplete='off' required placeholder='Enter your message here' id="message" name="message" />
+      <TextArea autoComplete='off' required placeholder='Enter your message here' id="message" name="message" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "Enter your message here."}/>
 
       <ValidationError prefix="Message" field="message" errors={state.errors} />
 
