@@ -78,7 +78,7 @@ const Projects = () => {
 
         <SwiperSlide><ProjectCard Title="JetCompra" Image="https://github.com/jjrh92/jetCompra/blob/main/media/logo.jpg?raw=true" Description="E-commerce using vanilla Javascript, featuring API consumption, cart, purchase simulation and some other cool features." Repo="https://github.com/jjrh92/jetCompra" target="_blank" Live="https://jjrh92.github.io/jetCompra/"/></SwiperSlide>
 
-        <SwiperSlide><ProjectCard Title="Olitek Chile" Image="https://i.ibb.co/ftbcsXT/logo.png" Description="Firetrucks selling company based in Santiago, Chile. Made with HTML/CSS and Bootstrap (Freelance Project)." Repo="https://www.olitek.cl" target="_blank" Live="https://www.olitek.cl"/></SwiperSlide>
+        <SwiperSlide><ProjectCard Title="Olitek Chile" Image="https://i.ibb.co/ftbcsXT/logo.png" Description="Firetrucks selling company based in Santiago, Chile. Made with HTML/CSS and Bootstrap (Freelance Project)." Repo="www.olitek.cl" target="_blank" Live="www.olitek.cl"/></SwiperSlide>
 
         <SwiperSlide><ProjectCard Title="toDoList" Image="https://m.media-amazon.com/images/I/31RvOPlfH7L.png" Description="Keep track of your daily goals with this task management webapp. Made with HTML/CSS, Bootstrap, using localstorage and vanilla Javascript." Repo="https://github.com/jjrh92/toDoList" target="_blank" Live="https://jjrh92.github.io/toDoList/"/></SwiperSlide>
 
