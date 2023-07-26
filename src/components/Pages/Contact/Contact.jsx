@@ -77,7 +77,7 @@ const Contact = () => {
         </Button>
       </ContactContainer>
 
-      <Text className='TextChange' id='Text'>Follow the links above to visit my socials, or submit the following form to send me message.</Text>
+      <Text className='TextChange' id='Text'>You can send me a message using the form below after you solve the antispam Captcha.</Text>
       <Form />
       <Text id='Text' style={{paddingBottom: "70px"}}>Thank you for visiting my portfolio.</Text>
 

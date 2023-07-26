@@ -115,7 +115,7 @@ function CallSendButton () {
   Container.removeChild (Captcha);
   Container.append (SendButton);
   const ChangeText = document.querySelector (".TextChange");
-  SendButton.onclick = ChangeText.textContent = "Successfuly Sent!";
+  SendButton.onclick = ChangeText.textContent = "Captcha has been solved! You can now send your message. Thank you!";
   SendButton.onclick = ChangeText();
   
 }
