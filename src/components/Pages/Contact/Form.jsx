@@ -157,7 +157,7 @@ function Form () {
       <ValidationError prefix="Message" field="message" errors={state.errors} />
 
       <SendButtonContainer id='SendButtonContainer'>
-        <ReCAPTCHA id='Captcha' sitekey="6Lf7EVAnAAAAAAsSNxHBAVhlHNmLuAm7Z5oNLWcI" onChange={CallSendButton} />,
+        <ReCAPTCHA id='Captcha' sitekey="6Lf7EVAnAAAAAAsSNxHBAVhlHNmLuAm7Z5oNLWcI" onChange={CallSendButton} />
       </SendButtonContainer>
       {/* <SendButton type="submit" disabled={state.submitting}>Send</SendButton> */}
       
