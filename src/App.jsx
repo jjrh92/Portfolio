@@ -7,6 +7,7 @@ import Projects from "./components/Pages/Projects/Projects";
 import Contact from "./components/Pages/Contact/Contact";
 import Footer from "./components/Pages/Footer/Footer";
 import { usePleaseStay } from 'react-use-please-stay'
+import { Analytics } from '@vercel/analytics/react';
 import "./reset.css";
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
       <Route path="/contact" element={<Contact/>} />
     </Routes>      
     <Footer /> 
+    <Analytics />
   </BrowserRouter>
 
   )
